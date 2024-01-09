@@ -18,6 +18,7 @@
                             <input type="text" class="form-control" placeholder="Message">
                         </div>
                     </form>
+                    <h2 class="display-5"></h2>
                 </div>
             </div>
                

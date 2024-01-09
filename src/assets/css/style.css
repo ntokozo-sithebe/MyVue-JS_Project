@@ -33,3 +33,20 @@
     width: 3rem;
     aspect-ratio: 1/1;
   }
+/* from home */
+  .Homeimg{
+    width: 15rem;
+    margin: 10px pink;
+    padding: 10px lightblue;
+  }
+  /* from projects */
+  .card{
+    width: 10rem;
+    display: flex;
+    
+  }
+  .card img[alt="myimages"]{
+    width: 5rem;
+  }
+
+
