@@ -4,6 +4,8 @@
       <h2 class="display-3"> Home</h2>
     </div>
 
+  
+
   </div>
 </template>
 
