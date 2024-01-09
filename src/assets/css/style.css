@@ -16,7 +16,6 @@
   }
   
   nav {
-    padding: 0px;
     background-color: lightblue;
     margin-bottom: 10px;
   }
@@ -31,6 +30,6 @@
   }
 
   img[alt='logo']{
-    width: 5rem;
+    width: 3rem;
     aspect-ratio: 1/1;
   }
