@@ -2,26 +2,14 @@
     <div class="container">
         <div class="row">
             <h2 class="display-3">Testimonials</h2>
-            <div class="row">
-                <p class="reviews" v-for="reviews in testimonials"
-                :key="reviews">
-                <div class="card body">
-                    <div class="col">
-                        <div class="row">
-                            {{ reviews.name + reviews.surname }}
-                        </div>
-                    </div>
-                    .row
-                </div>
-             </p>
-
-               
-               
-            </div>
-
         </div>
-
-    </div>
+            <div class="row">
+                <p class="myreviews" v-for="reviews in testimonials"
+                :key="reviews">
+                 {{ reviews.quotes}}
+                 </p>
+                        </div>
+      </div> 
 </template>
 
 <script>
@@ -40,5 +28,8 @@
 </script>
 
 <style scoped>
+.myreviews{
+  border: 2rem black;
+}
 
 </style>
