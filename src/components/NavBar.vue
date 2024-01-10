@@ -52,6 +52,6 @@
     }
 </script>
 
-<style scoped>
+<style src="@/assets/css/style.css">
 
 </style>

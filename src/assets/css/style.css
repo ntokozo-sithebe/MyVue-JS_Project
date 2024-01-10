@@ -19,6 +19,15 @@
     background-color: lightblue;
     margin-bottom: 10px;
   }
+.navbar-nav{
+  padding: 5px;
+
+}
+
+  .navbar-nav :hover{
+    background-color:white;
+    border-radius: 35%;
+  }
   
   nav a {
     font-weight: bold;
