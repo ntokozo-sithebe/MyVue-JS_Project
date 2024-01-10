@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2 class="display-3"> Projects</h2>
+            <h2 class="display-4"> Projects</h2>
         </div>
         <div class="row">
     <div class="card d-flex" v-for="item in projects" :key="item">

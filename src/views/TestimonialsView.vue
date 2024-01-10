@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2 class="display-3">Testimonials</h2>
+            <h2 class="display-4">Testimonials</h2>
         </div>
             <div class="row">
                 <p class="myreviews" v-for="reviews in testimonials"

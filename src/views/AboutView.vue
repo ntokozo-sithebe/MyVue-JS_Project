@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <h2 class="display-3">About</h2>
+      <h2 class="display-4">About</h2>
     </div>
     <!-- <div class="row">
       <p class="myabout text-dark text-align-center" v-for="item in about"
