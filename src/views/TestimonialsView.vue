@@ -4,11 +4,17 @@
             <h2 class="display-4">Testimonials</h2>
         </div>
             <div class="row">
-                <p class="myreviews" v-for="reviews in testimonials"
-                :key="reviews">
-                 {{ reviews.quotes}}
-                 </p>
-                        </div>
+                    <div class="col myreviews d-grid m-3" v-for="reviews in testimonials"
+                    :key="reviews"> 
+                    <p> 
+                        <img class="img-fluid" src="reviews.images" alt="profiles" loading="lazy"> <br>
+                        {{ reviews.quotes}}
+                    </p>
+                    
+                    
+                     </div>
+                            
+                </div>
       </div> 
 </template>
 

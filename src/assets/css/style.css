@@ -26,7 +26,7 @@
 
   .navbar-nav :hover{
     background-color:white;
-    border-radius: 35%;
+    border-radius: 10%
   }
   
   nav a {
@@ -48,14 +48,4 @@
     margin: 10px pink;
     padding: 10px lightblue;
   }
-  /* from projects */
-  .card{
-    width: 10rem;
-    display: flex;
-    
-  }
-  .card img[alt="myimages"]{
-    width: 5rem;
-  }
-
-
+  
