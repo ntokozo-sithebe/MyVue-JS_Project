@@ -4,23 +4,22 @@
             <h2 class="display-4"> Projects</h2>
         </div>
         <div class="row">
-    <div class="card d-flex" v-for="item in projects" :key="item">
-  <div class="card-img-top">
-    <img class="img-fluid w-25" :src= "item.image"  alt="animage">
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">{{ item.name }}</h5>
-    <p class="card-text">{{ item.description }}</p>
-  </div> 
-  <div class="card-body">
-    <div>
-            <a :href="item.gitHub" target="_blank" class="card-link"><button type="button">Github</button></a>
-         
-             <a :href="item.netlify" target="_blank" class="card-link"><button type="button">Netlify</button></a>
-         
-    </div>
-  </div>
-</div>
+            <div class="col d-grid d-block m-6">
+                <div class="card d-flex" v-for="item in projects" :class="item.name" :key="item">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.name }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+              </div> 
+              <div class="card-body align-items-center">
+                <div>
+                        <a :href="item.gitHub" target="_blank" class="card-link"><button type="button">Github</button></a>
+                     
+                        <a :href="item.netlify" target="_blank" class="card-link"><button type="button">Netlify</button></a>
+                     
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
     </div>
 </template>
@@ -41,7 +40,29 @@
     }
 </script>
 
-<style src="@/assets/css/style.css">
+<!-- <style src="@/assets/css/style.css"> -->
+<style scoped>
+.card{
+    width: 18rem;
+    margin: 2rem;
+    
+  }
+  
+
+.Calculator{
+    background-color:peachpuff ;
+   position: relative;
+}
+.Fine{
+    background-color:peachpuff ;
+}
+.E-Commerce{
+    background-color:peachpuff ;
+}
+
+
 
 
 </style>
+
+
