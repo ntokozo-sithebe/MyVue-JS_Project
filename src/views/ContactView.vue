@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2 class="display-4"> Contact</h2>
+            <h2 class="display-4">Let's Connect</h2>
             <div class="row d-block d-flex p-3">
                 <div class="col">
                     <img class="img-fluid img-thumbnails w-50 border-2" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg" alt="My-Image" loading="lazy" >
@@ -14,7 +14,7 @@
                         <div class="input">
                             <input type="text" class="form-control" placeholder="Email">
                         </div>
-                        <div class="input">
+                        <div class="input row-cols-10">
                             <input type="text" class="form-control" placeholder="Message">
                         </div>
                     </form>

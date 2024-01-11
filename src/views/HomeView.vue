@@ -4,7 +4,7 @@
       <h2 class="display-4 text-dark"> Home</h2>
     </div>
     <div class="row">
-      <h5 class="myname text-dark text-bold"> Ntokozo Sithebe</h5>
+      <h5 class="myName text-dark text-bold"> Ntokozo Sithebe</h5>
     </div>
     <div>
       <img class="Homeimg" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
@@ -26,13 +26,13 @@ export default {}
 
 @keyframes slide{
   from{
-    transform: translateX(-700px);
+    transform: translateX(-350px);
   }
   to{
-    transform: translateX(700px)
+    transform: translateX(350px)
   }
 }
-.myname{
+.myName{
   animation-name: slide;
   animation-duration: 3s;
   animation-timing-function: ease-out;
@@ -47,7 +47,7 @@ export default {}
 
   }
   to{
-    transform:translateX(-700px)
+    transform:translateX(-350px)
 
   }
 }
@@ -60,6 +60,7 @@ export default {}
   animation-iteration-count: 3;
   animation-direction: normal;
   animation-fill-mode: none;
+  scroll-behavior: none;
 
 }
 .Homeimg{

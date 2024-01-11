@@ -3,7 +3,7 @@ const myDataUrl = 'https://ntokozo-sithebe.github.io/vue_js_port_data/data'
 export default createStore({
   state: {
     education: null,
-    workexperience: null,
+    work: null,
     skills: null,
     testimonials: null,
     projects: null,
@@ -15,8 +15,8 @@ export default createStore({
     setEducation(state, value){
       state.education = value
     },
-    setWorkexperience(state, value){
-      state.workexperience = value
+    setWork(state, value){
+      state.work = value
     },
     setSkills(state, value){
       state.skills = value
@@ -40,11 +40,11 @@ export default createStore({
         console.error('Error fetching the data:', error.message)
       }
     },
-    async fetchWorkexperience(context){
+    async fetchWork(context){
       try{
         let res = await fetch(myDataUrl)
-        let {workexperience} = await res.json()
-        context.commit('setSkills', workexperience )
+        let {work} = await res.json()
+        context.commit('setSkills', work )
         
       }catch(error){
         console.error("error fetching the data:", error.message)
@@ -57,7 +57,7 @@ export default createStore({
         let {skills} = await res.json()
         context.commit('setSkills', skills )
       }catch(error){
-        console.erroe("error fetching the data", error.message)
+        console.error("error fetching the data", error.message)
       }
     },
     async fetchTestimonials(context){
