@@ -1,5 +1,8 @@
 <template>
-    <div class="" id="projects">
+    <div class="container" id="projects">
+         <div class="row">
+            <h2 class=" display-4 text-black">My Projects</h2>
+        </div>
         <div class="wrapper">
             <div class="box">
                 <div></div>
@@ -14,21 +17,21 @@
                 <div></div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <h2 class="display-4 text-black">My Projects</h2>
-        </div>
+        </div> -->
         <div class="row">
-            <div class="justify-content-center ">
-                <div class="card d-flex d-md-flex justify-content-center gap-lg-5 row-gap-md-5" v-for="item in projects" :class="item.name" :key="item">
-              <div class="card-body">
+            <div class="col-md-4 justify-content-center" v-for="item in projects" :class="item.name" :key="item">
+                <div class="card d-flex d-md-flex justify-content-center gap-lg-5 row-gap-md-5" >
+              <div class="card-body text-center">
                 <h5 class="card-title">{{ item.name }}</h5>
                 <p class="card-text">{{ item.description }}</p>
               </div> 
               <div class="card-body align-items-center">
                 <div>
-                        <a :href="item.gitHub" target="_blank" class="card-link"><button type="button">Github</button></a>
+                        <a :href="item.gitHub" target="_blank" class="card-link"><button class="btn btn-primary" type="button">Github</button></a>
                      
-                        <a :href="item.netlify" target="_blank" class="card-link"><button type="button">Netlify</button></a>
+                        <a :href="item.netlify" target="_blank" class="card-link"><button class="btn btn-secondary" type="button">Netlify</button></a>
                      
                 </div>
               </div>
@@ -61,24 +64,28 @@
     height: 30vh;
     margin: 2rem;
   }
+  /* .myProject{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
   .container{
     font-family:'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    border: solid black;
   }
   
 
 .wrapper{
-    position: relative;
+    position: absolute;
     left: 0;
     /* top: ; */
     width: 100%;
-    aspect-ratio: 1/1;
-    height: 120rem;
+    height: 120vh;
     overflow: hidden;
     background: linear-gradient(90deg, rgb(67, 113, 249)0%, rgb(99, 132, 167)  35%, rgb(180, 209, 222) 100% );
 }
 .box div{
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     background-color: white;
