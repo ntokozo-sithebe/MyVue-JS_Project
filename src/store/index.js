@@ -30,32 +30,54 @@ export default createStore({
   },
   actions: {
     async fetchEducation(context){
-      let res = await fetch(myDataUrl)
-      // console.log(res);
-      let {education} = await res.json()
-      // console.log(education);
-      context.commit('setEducation', education )
-      // console.log(context);
+      try{
+
+        let res = await fetch(myDataUrl)
+        let {education} = await res.json()
+        context.commit('setEducation', education )
+      
+      } catch(error){
+        console.error('Error fetching the data:', error.message)
+      }
     },
     async fetchWorkexperience(context){
-      let res = await fetch(myDataUrl)
-      let {workexperience} = await res.json()
-      context.commit('setSkills', workexperience )
+      try{
+        let res = await fetch(myDataUrl)
+        let {workexperience} = await res.json()
+        context.commit('setSkills', workexperience )
+        
+      }catch(error){
+        console.error("error fetching the data:", error.message)
+      }
     },
     async fetchSkills(context){
-      let res = await fetch(myDataUrl)
-      let {skills} = await res.json()
-      context.commit('setSkills', skills )
+      try{
+
+        let res = await fetch(myDataUrl)
+        let {skills} = await res.json()
+        context.commit('setSkills', skills )
+      }catch(error){
+        console.erroe("error fetching the data", error.message)
+      }
     },
     async fetchTestimonials(context){
-      let res = await fetch(myDataUrl)
-      let {testimonials} = await res.json()
-      context.commit('setTestimonials', testimonials )
+      try{
+        let res = await fetch(myDataUrl)
+        let {testimonials} = await res.json()
+        context.commit('setTestimonials', testimonials )
+      }catch(error){
+        console.error("error fetching the data:", error.message)
+      }
     },
     async fetchProjects(context){
-      let res = await fetch(myDataUrl)
-      let {projects} = await res.json()
-      context.commit('setProjects', projects )
+      try{
+
+        let res = await fetch(myDataUrl)
+        let {projects} = await res.json()
+        context.commit('setProjects', projects )
+      }catch(error){
+        console.error("error fetching the data", error.message)
+      }
     }
   },
   modules: {

@@ -7,7 +7,7 @@
       <h5 class="myname text-dark text-bold"> Ntokozo Sithebe</h5>
     </div>
     <div>
-      <img class="Homeimg" src="https://drive.google.com/uc?id=1jllZnOfng33AE1y3o0bsofBCnoziGl8D" alt="myimage">
+      <img class="Homeimg" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
     </div>
     <div class="row">
       <h5 class="developer text-dark text-bold">Aspiring Software Developer</h5>
