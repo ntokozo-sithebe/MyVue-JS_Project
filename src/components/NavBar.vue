@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <router-link to="/">
-    <img class="img-fluid w-25 m-auto" src="https://drive.google.com/uc?id=1e43iD__7QC_i4AfK9auyqgjuLeivQK4q" alt="logo" loading="lazy">
+    <img class="img-fluid w-25 m-auto" src="https://i.ibb.co/tZTkLHF/s.png" alt="logo" loading="lazy">
     </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
