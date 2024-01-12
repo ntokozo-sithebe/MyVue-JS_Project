@@ -44,7 +44,8 @@ export default createStore({
       try{
         let res = await fetch(myDataUrl)
         let {work} = await res.json()
-        context.commit('setSkills', work )
+        // console.log(work);
+        context.commit('setWork', work )
         
       }catch(error){
         console.error("error fetching the data:", error.message)

@@ -1,69 +1,49 @@
 <template>
-  <div class="container" id="about">
+  <div class="container">
     <div class="row">
-      <h2 class="display-4 text-white text-bold">About Me</h2>
+      <h2 class="display-4 text-dark">About Me</h2>
     </div>
     <div class="row">
-      <!-- <div class="col d-flex">
-        <img class="img-fluid w-25 img-thumbnail" src="https://drive.google.com/uc?id=1PnNX_sjtDHdOhsvqdtikQEVHAYk7XpYV" alt="sunset"> -->
-        <h6 class="aboutme fs-2 text-white text-align-center">
-          l am Ntokozo Sithebe, an aspiring full stack developer.<br>
-           l enjoy gathering information and providing solutions to those who need<br>
-            help in making better choices. <br> l love doing new things. In my spare time l delight in doing business <br>
-             with clients and doing outside activities including running at the beach,hiking and swimming in the ocean. 
-        </h6>
+      <div class="col">
+        <!-- <img class="mee w-25" src="https://i.ibb.co/WsQ54g2/LC2.jpg" alt="meee"> -->
+        <img class="sunset w-50 rounded-3" src="https://i.ibb.co/Gn9ph4f/20230930-182900.jpg" alt="sunset">
+      </div>
+      <div class="col">
+        <p class="aboutme fs-5 text-dark text-align-center justify-content-center mt-5">
+          I am Ntokozo Sithebe, an aspiring full stack developer.<br>
+          I am self motivated. Once I make up my mind about anything I aspire to be or anything l want I go for it dispite of external opinions.
+           I enjoy gathering information and providing solutions.<br>
+            <br> 
+            <br> 
+
+             l love doing new activities. In my spare time l delight in reading, doing business
+             with clients and involving myself in outside activities including running at the beach,hiking and swimming in the ocean.
+        </p>
+      </div>
       </div>
     </div>
-
-    <!-- </div> -->
-  
 </template>
 
 <script>
 
 export default {
   name: "AboutView",
-  // computed: {
-  //   about(){
-  //     return this.$store.state.about;
-  //   }
-  // },
-  // mounted(){
-  //   this.$store.dispatch('fetchAbout')
+  components:{}
 
-  // }
   
 }
 
 
 </script>
+
 <style scoped>
-
-*,
-*,  ::before,
-*, ::after{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+@media screen and (width: 360px){
+  img [alt="sunset"]{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 100%;
+  }
 }
 
-#about{
-  height: 100vh;
-  width: 100%;
-  background-image: url(https://i.ibb.co/0hxYdVw/20230930-183542.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 70%;
-  background-attachment: fixed;
-  margin: 0px;
-  
- 
-
-}
-.aboutme{
-  text-align: center;
-  
-
-}
 </style>
 
