@@ -3,13 +3,13 @@
     <div class="row">
       <h2 class="display-4 text-dark"> Home</h2>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <h5 class="myName text-dark text-bold"> Ntokozo Sithebe</h5>
     </div>
     <div>
-      <img class="Homeimg" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
+      <img class="Homeimg justify-content-center" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <h5 class="developer text-dark text-bold">Aspiring Software Developer</h5>
     </div>
 
@@ -23,13 +23,16 @@
 export default {}
 </script>
 <style scoped>
+.container{
+  scroll-behavior: none;
+}
 
 @keyframes slide{
   from{
-    transform: translateX(-350px);
+    transform: translateX(-300px);
   }
   to{
-    transform: translateX(350px)
+    transform: translateX(300px)
   }
 }
 .myName{
@@ -47,7 +50,7 @@ export default {}
 
   }
   to{
-    transform:translateX(-350px)
+    transform:translateX(-300px)
 
   }
 }

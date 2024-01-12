@@ -5,11 +5,11 @@
         </div>
                 <div class="row justify-content-center">
             <div class="col-md-4 p-3 rounded-6" v-for="reviews in testimonials" :key="reviews">
-                <div class="card">
+                <div class="card m-3">
               <div class="card-body justify-content-center">
-                <img class="img-fluid w-25 rounded-5" :src="reviews.profile" alt="theProfiles" loading="lazy">
+                <img class="img-fluid rounded-5" :src="reviews.profile" alt="theProfiles" loading="lazy">
                 
-                <h5 class="card-title">{{ reviews.name }} {{ reviews.surname }}</h5>
+                <h5 class="card-title m-2">{{ reviews.name }} {{ reviews.surname }}</h5>
               </div> 
               <div class="card-body align-items-center">
                 <p class="card-text">{{ reviews.quotes }}</p>
@@ -42,5 +42,15 @@
 .testimonials{
   font-family: 'Alumni Sans Collegiate One', sans-serif, 'Merriweather', serif, 'Nova Square', sans-serif, 'Playfair Display', serif, 'Space Grotesk', sans-serif;
 }
+.card{
+  height: 35rem;
+}
+.card img[alt="theProfiles"]{
+  width: 120px;
+  height: 7rem;
+}
+.card :nth-child(even){
+  background-color: peachpuff;
+} 
 
 </style>

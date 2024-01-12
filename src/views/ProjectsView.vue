@@ -80,7 +80,7 @@
     left: 0;
     /* top: ; */
     width: 100%;
-    height: 120vh;
+    height: 250vh;
     overflow: hidden;
     background: linear-gradient(90deg, rgb(67, 113, 249)0%, rgb(99, 132, 167)  35%, rgb(180, 209, 222) 100% );
 }
@@ -152,6 +152,13 @@
 
     }
   }
+  @media screen and (width < 360){
+  img [alt="sunset"]{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 100%;
+  }
+}
 
 /* .Calculator{
     background-color:peachpuff ;
