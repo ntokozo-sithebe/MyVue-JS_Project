@@ -24,6 +24,14 @@
         },
         // methods:{
         //     fetchData(){
+
+        //        this.isLoading = true
+        //     },
+        //     Found(){
+        //         this.isLoading = false 
+                
+        //     }
+
         //        this.isLoading
         //     }
             
