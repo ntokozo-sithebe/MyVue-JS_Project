@@ -23,15 +23,15 @@
 
             }
         },
-        methods:{
-            fetchData(){
-               this.isLoading = true
-            },
-            Found(){
-                this.isLoading = false 
+        // methods:{
+        //     fetchData(){
+        //        this.isLoading = true
+        //     },
+        //     Found(){
+        //         this.isLoading = false 
                 
-            }
-    }
+        //     }
+    //}
        
        
 
