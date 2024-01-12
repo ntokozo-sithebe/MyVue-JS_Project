@@ -7,7 +7,7 @@
 </div>
 </div>
 <div v-else>
-   {{ Found }}
+   {{ fetchData }}
 </div>
 
     </div>
@@ -19,18 +19,22 @@
         components:{},
         data(){
             return{
-                isLoading: true
-
+                isLoading: true,
             }
         },
         // methods:{
         //     fetchData(){
+
         //        this.isLoading = true
         //     },
         //     Found(){
         //         this.isLoading = false 
                 
         //     }
+
+        //        this.isLoading
+        //     }
+            
     //}
        
        
