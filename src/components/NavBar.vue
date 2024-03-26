@@ -1,14 +1,15 @@
 <template>
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <router-link to="/">
-    <img class="img-fluid w-25 m-auto" src="https://i.ibb.co/tZTkLHF/s.png" alt="logo" loading="lazy">
-    </router-link>
+    <!-- <router-link to="/"> -->
+		<!-- <h2 class="favicon "> Ntokozo Sithebe </h2> -->
+    <!-- <img class="img-fluid w-25 m-auto" src="https://i.ibb.co/tZTkLHF/s.png" alt="logo" loading="lazy"> -->
+    <!-- </router-link> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-5 mx-auto">
+      <ul class="navbar-nav me-auto mb-lg-2 me-5 mx-auto">
         <li class="nav-item">
           <router-link to="/" class="nav-link active">
             Home

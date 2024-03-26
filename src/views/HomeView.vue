@@ -1,18 +1,20 @@
 <template>
   <div class="container">
-    <div class="row">
-      <h2 class="display-4 text-dark"> Home</h2>
-    </div>
-    <div class="row justify-content-center">
-      <h5 class="myName text-dark text-bold"> Ntokozo Sithebe</h5>
-    </div>
-    <div>
-      <img class="Homeimg justify-content-center" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
-    </div>
-    <div class="row justify-content-center">
-      <h5 class="developer text-dark text-bold">Aspiring Software Developer</h5>
-    </div>
+	<div class="row">
+		<div class="col">
+			<h2>Ntokozo Sithebe</h2>
+			<h2>Aspiring Developer</h2>
+		</div>
+		<div class="col">
+			<img class="overlay_image" src="https://i.ibb.co/WsQ54g2/LC2.jpg" alt="" loading="lazy">
 
+		</div>
+		<div class="col">
+			
+
+		</div>
+	</div>
+    
   
 
   </div>
@@ -23,7 +25,29 @@
 export default {}
 </script>
 <style scoped>
-.container{
+.overlay_image{
+	height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 12px 30px; */
+  /* color: black; */
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.overlay_image:hover{
+  /* background-color: black; */
+  color: white;
+}
+
+
+
+/* .container{
+	overflow: hidden;
   scroll-behavior: none;
 }
 
@@ -70,5 +94,6 @@ export default {}
   border: 5px white;
   border-radius: 35%;
   margin: 5px;
-}
+  justify-content: center
+} */
 </style>

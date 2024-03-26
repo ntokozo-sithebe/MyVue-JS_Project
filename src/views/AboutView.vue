@@ -1,24 +1,28 @@
 <template>
   <div class="container">
     <div class="row">
-      <h2 class="display-4 text-dark">About Me</h2>
-    </div>
-    <div class="row">
       <div class="col">
         <!-- <img class="mee w-25" src="https://i.ibb.co/WsQ54g2/LC2.jpg" alt="meee"> -->
-        <img class="sunset w-50 rounded-3" src="https://i.ibb.co/Gn9ph4f/20230930-182900.jpg" alt="sunset">
+        <!-- <img class="sunset w-50 rounded-3" src="https://i.ibb.co/Gn9ph4f/20230930-182900.jpg" alt="sunset"> -->
+
+		<div class="row">
+      <h1 class="display-3 text-dark">About Me</h1>
+    </div>
+		<p class="aboutme fs-5 text-dark text-align-center justify-content-center mt-5">
+          I am Ntokozo Sithebe, an aspiring full stack developer.<br>
+ I love creating anything from its raw form and coming out with a final product that serves an actual purpose. 
+which is why l enjoy software development - you can make something out of nothing 
+<br>
+            <br> 
+            <br> 
+            In my spare time I run my own business, I read, enjoy running at the beach and l occassionaly hike. l love activities that make me reflect ..especially when it gets harder ---
+the resilience and belief is what will take you to the top and l believe this concept works with software development as well.
+
+        </p>
+
       </div>
       <div class="col">
-        <p class="aboutme fs-5 text-dark text-align-center justify-content-center mt-5">
-          I am Ntokozo Sithebe, an aspiring full stack developer.<br>
-          I am self motivated. Once I make up my mind about anything I aspire to be or anything l want I go for it dispite of external opinions.
-           I enjoy gathering information and providing solutions.<br>
-            <br> 
-            <br> 
-
-             l love doing new activities. In my spare time l delight in reading, doing business
-             with clients and involving myself in outside activities including running at the beach,hiking and swimming in the ocean.
-        </p>
+         
       </div>
       </div>
     </div>
