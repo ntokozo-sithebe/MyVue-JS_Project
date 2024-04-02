@@ -1,18 +1,17 @@
 <template>
   <div class="container">
-    <div class="row">
-      <h2 class="display-4 text-dark"> Home</h2>
-    </div>
-    <div class="row justify-content-center">
-      <h5 class="myName text-dark text-bold"> Ntokozo Sithebe</h5>
-    </div>
-    <div>
-      <img class="Homeimg justify-content-center" src="https://i.ibb.co/c8w6Khq/IMG-20230305-WA0010.jpg">
-    </div>
-    <div class="row justify-content-center">
-      <h5 class="developer text-dark text-bold">Aspiring Software Developer</h5>
-    </div>
-
+	<div class="row">
+		<div class="col">
+			<p>
+        Ntokozo <br> <span> Sithebe </span> 
+      </p>
+		</div>
+		<div class="col" id="image">
+	
+		</div>
+		
+	</div>
+    
   
 
   </div>
@@ -23,7 +22,66 @@
 export default {}
 </script>
 <style scoped>
-.container{
+/* .overlay_image{
+	height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 12px 30px; */
+  /* color: black; 
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+
+} */
+
+#image{
+  background-image: url(https://i.ibb.co/WsQ54g2/LC2.jpg);
+  background-repeat: no-repeat;
+  background-position: 70% 10%; 
+	height: 50vh;
+  width: 50vw;
+  background-size: auto;
+	/* background-position: left top;
+  background-position-x: left; */
+	margin: 5rem;
+  /* padding: 5rem; */
+  border: 0.5rem solid black;
+  border-radius: 20%;
+  
+
+}
+
+
+
+
+/* white noise 
+
+https://i.ibb.co/gjmw9P8/white-noise.jpg */
+
+/* .overlay_image:hover{
+   background-color: black; 
+  color: white;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+	overflow: hidden;
   scroll-behavior: none;
 }
 
@@ -70,5 +128,6 @@ export default {}
   border: 5px white;
   border-radius: 35%;
   margin: 5px;
-}
+  justify-content: center
+} */
 </style>

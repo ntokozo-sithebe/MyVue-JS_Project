@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+
 const myDataUrl = 'https://ntokozo-sithebe.github.io/vue_js_port_data/data'
 export default createStore({
   state: {
