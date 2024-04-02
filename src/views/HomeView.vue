@@ -2,17 +2,14 @@
   <div class="container">
 	<div class="row">
 		<div class="col">
-			<h2>Ntokozo Sithebe</h2>
-			<h2>Aspiring Developer</h2>
+			<p>
+        Ntokozo <br> <span> Sithebe </span> 
+      </p>
 		</div>
-		<div class="col">
-			<img class="overlay_image" src="https://i.ibb.co/WsQ54g2/LC2.jpg" alt="" loading="lazy">
-
+		<div class="col" id="image">
+	
 		</div>
-		<div class="col">
-			
-
-		</div>
+		
 	</div>
     
   
@@ -25,24 +22,61 @@
 export default {}
 </script>
 <style scoped>
-.overlay_image{
+/* .overlay_image{
 	height: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* padding: 12px 30px; */
-  /* color: black; */
+  /* color: black; 
   border: none;
   background-color: white;
   border-radius: 10px;
   cursor: pointer;
 
+} */
+
+#image{
+  background-image: url(https://i.ibb.co/WsQ54g2/LC2.jpg);
+  background-repeat: no-repeat;
+  background-position: 70% 10%; 
+	height: 50vh;
+  width: 50vw;
+  background-size: auto;
+	/* background-position: left top;
+  background-position-x: left; */
+	margin: 5rem;
+  /* padding: 5rem; */
+  border: 0.5rem solid black;
+  border-radius: 20%;
+  
+
 }
-.overlay_image:hover{
-  /* background-color: black; */
+
+
+
+
+/* white noise 
+
+https://i.ibb.co/gjmw9P8/white-noise.jpg */
+
+/* .overlay_image:hover{
+   background-color: black; 
   color: white;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

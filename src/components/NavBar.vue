@@ -9,8 +9,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-lg-2 me-5 mx-auto">
-        <li class="nav-item">
+      <ul class="navbar-nav me-auto mb-lg-0 me-3 mx-0">
+        <li class="nav-item text-white">
           <router-link to="/" class="nav-link active">
             Home
           </router-link>
