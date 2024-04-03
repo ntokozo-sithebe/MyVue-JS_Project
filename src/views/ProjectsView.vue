@@ -1,7 +1,7 @@
 <template>
     <div class="container" id="projects">
          <div class="row">
-            <h2 class=" display-4 text-black">My Projects</h2>
+            <!-- <h2 class=" display-4 text-black">My Projects</h2> -->
         </div>
         <div class="wrapper">
             <div class="box">
@@ -15,6 +15,13 @@
                 <div></div>
                 <div></div>
                 <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                
+                
             </div>
         </div>
         <!-- <div class="row">
@@ -63,15 +70,19 @@
     width: 20rem;
     height: 30vh;
     margin: 2rem;
+     
   }
+
   /* .myProject{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+
+
   .container{
-    font-family:'Poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family:'Georgia', 'Times New Roman', Times, serif;
   }
   
 
@@ -82,7 +93,7 @@
     width: 100%;
     height: 250vh;
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(67, 113, 249)0%, rgb(99, 132, 167)  35%, rgb(180, 209, 222) 100% );
+    background: linear-gradient(90deg,black 0%, rgb(21, 22, 22)  35%, rgb(57, 61, 63) 100% );
 }
 .box div{
     position: relative;
@@ -141,6 +152,32 @@
     left: 85%;
     animation: animate 7s linear infinite;
 }
+.box div:nth-child(11){
+    top: 88%;
+    left: 90%;
+    animation: animate 6s linear infinite;
+}
+.box div:nth-child(12){
+    top: 50%;
+    left: 90%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(13){
+    top: 90%;
+    left: 10%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(14){
+    top: 44%;
+    left: 5%;
+    animation: animate 16s linear infinite;
+}
+.box div:nth-child(15){
+    top: 100%;
+    left: 80%;
+    animation: animate 8s linear infinite;
+}
+
   @keyframes animate{
     0%{
         transform: scale(0) translateY(0) rotate(0);
@@ -159,6 +196,15 @@
     height: 100%;
   }
 }
+
+@media screen and (width > 360){
+  img [alt="sunset"]{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 100%;
+  }
+}
+
 
 /* .Calculator{
     background-color:peachpuff ;
