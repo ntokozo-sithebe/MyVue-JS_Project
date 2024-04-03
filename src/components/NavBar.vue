@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
     <!-- <router-link to="/"> -->
 		<!-- <h2 class="favicon "> Ntokozo Sithebe </h2> -->
@@ -8,7 +8,7 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-lg-0 me-3 mx-0">
         <li class="nav-item text-white">
           <router-link to="/" class="nav-link active">

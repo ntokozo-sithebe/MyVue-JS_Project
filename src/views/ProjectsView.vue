@@ -36,9 +36,9 @@
               </div> 
               <div class="card-body align-items-center">
                 <div>
-                        <a :href="item.gitHub" target="_blank" class="card-link"><button class="btn btn-primary" type="button">Github</button></a>
+                        <a :href="item.gitHub" target="_blank" class="card-link"><button class="btn text-white bg-black" type="button">Github</button></a>
                      
-                        <a :href="item.netlify" target="_blank" class="card-link"><button class="btn btn-secondary" type="button">Netlify</button></a>
+                        <a :href="item.netlify" target="_blank" class="card-link"><button class="btn text-white bg-black" type="button">Netlify</button></a>
                      
                 </div>
               </div>
@@ -70,6 +70,10 @@
     width: 20rem;
     height: 30vh;
     margin: 2rem;
+    padding: 2rem;
+    border: 5px white;
+    box-shadow: black;
+    /* border-radius: 50%; */
      
   }
 
@@ -93,7 +97,7 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(67, 113, 249)0%, rgb(99, 132, 167)  35%, rgb(180, 209, 222) 100% );
+    background: linear-gradient(90deg, black 0%, rgb(34, 36, 36)  35%, rgb(60, 63, 64) 100% );
 }
 .box div{
     position: relative;
@@ -150,6 +154,31 @@
 .box div:nth-child(10){
     top: 15%;
     left: 85%;
+    animation: animate 7s linear infinite;
+}
+.box div:nth-child(11){
+    top: 10%;
+    left: 90%;
+    animation: animate 12s linear infinite;
+}
+.box div:nth-child(12){
+    top: 5%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+.box div:nth-child(13){
+    top: 3%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+.box div:nth-child(14){
+    top: 50%;
+    left: 56%;
+    animation: animate 8s linear infinite;
+}
+.box div:nth-child(15){
+    top: 15%;
+    left: 55%;
     animation: animate 7s linear infinite;
 }
   @keyframes animate{

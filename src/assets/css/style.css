@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
  
 /* from app.vue */
@@ -14,28 +15,38 @@
     font-family: "Madimi One", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+  color: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: white;
+    
+    
 	
   }
   
   nav {
     background-color:lightblue;
-    color: white;
-    /* margin-bottom: 50px;
-    padding: 0px; */
+    color: black;
+    text-emphasis-color: white;
+    border: 5px solid black;
   }
-/* .navbar-nav{
-  padding: 10px;
 
-} */
-/* .nav-item{
+  /* nav :hover{
+    background-color:white;
+    border-radius: 10%;
+    padding: 4px;
+    color: white;
+    text-emphasis-color: white;
+  } */
+
+.nav-item{
 margin-bottom: 0px;
 padding: 10px;
 color: white;
-} */
+}
+a.nav-link.active{
+  color: white;
+}
 
   .navbar-nav :hover{
     background-color:white;
@@ -51,22 +62,4 @@ color: white;
     color: white;
   }
   
-  /* nav a.router-link-exact-active {
-    color: #42b983;
-  } */
-
-  /* img[alt='logo']{
-    width: 3rem;
-    aspect-ratio: 1/1;
-  } */
-/* from home */
-  /* .Homeimg{
-    width: 15rem;
-    margin: 10px pink;
-    padding: 10px lightblue;
-  }
-
-  .container-fluid{
-	height: 290px;
-  }
-   */
+  
